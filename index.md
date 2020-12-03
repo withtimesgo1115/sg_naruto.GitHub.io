@@ -15,6 +15,15 @@ Ninja is a well-known ancient profession in Japan. Their work includes protectin
 <div style="clear:both;"></div>
 
 # Baisc Network Analysis
-<div class="wrapper" style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+<div class="wrapper" style="margin:10px;text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
 Our datasets are extracted from the Fandom wikipages by using the API provided by this website and some libraries such as JSON, urllib, and BeautifulSoup, etc. The first dataset is the text content of every character webpage shown in the comic. The second data set is the XXX. For the first dataset, we crawled the text length, affiliation and clan in each page as the attributes for the node. The network edges are generated according to the superlinks of corresponding node pages. After constructing the network, it is easy to obtain the number of nodes and edges by calling the built-in methods of NetworkX. The result shows there are <b>1293</b> nodes and <b>11055</b> edges and note that the isolated nodes that there is no connection between that node and others has been removed already.
+</div>
+
+## Degree Analysis
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+        The degree of a node in the network is the number of adjacent nodes that the i-th node has, which is the simplest but most important feature. The greater the degree, the more important the node is to some extent. For directed networks, degrees are divided into two categories: out-degree and in-degree. Out-degree refers to the number of edges from current node to other node. In-degree refers to the number of edges from other node to current node. 
+        Once the network generated successfully, the degree analysis will not be complex since the third-party library <i>NextwrokX</i> provides us with a lot of methods. From the figure below, you can see the top 5 nodes in terms of the number of out-degree and in-degree. This result is very consistent with our expected results. They are indeed the most important characters in this comic. At the same time, the in-degree value greater than the out-degree value can also be explained, because most small characters are associated with several important characters, and they are rarely associated with other characters, which leads to a very large in-degree of important characters. 
+    </p>
+    <img src="./img/top5deg.png" />
 </div>
