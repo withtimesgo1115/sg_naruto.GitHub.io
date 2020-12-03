@@ -100,16 +100,23 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
     </table>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    We named every community using three character names whose degree ranks in top 3 in that community. In the row 2, you can see Naruto, Kakashi and Sasuki are grouped to the same community and other communities also meet our expectation. 
+    Besides, we named every community using three character names whose degree ranks in top 3 in that community. In the row 2, you can see Naruto, Kakashi and Sasuki are grouped to the same community and other communities also meet our expectation. You can find the result in the table above.
     </p>
 </div>
 
 ## Network Overview
 <div style="display:flex">
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    The overall network of Naruto World is shown in the figure below. As shown in the figure, those nodes whose size is obviously larger than others are critical protagonists in the network. They have higher degrees. Different node is grouped in a different community with different colors. The connections(links) among these nodes are drawn in shallow yellow.
+    The overall network of Naruto World is shown in the figures below. As shown in the figure, those nodes whose size is obviously larger than others are critical protagonists in the network. They have higher degrees. The connections(links) among these nodes are drawn in shallow yellow. 
+    </p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    The first network graph is drawn based on the <b>communities</b> analyzed above. Different node is grouped in a different community with different colors.
     </p>
     <img src="./img/network.jpg" style="display:flex; justify-content:center; align-items:center;"/>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    The second network graph is drawn based on the attribute <b>Clan</b> extracted from the wikipage in the beginning. There are 42 clans so that in this graph, you can see 42 different colors marking the nodes.
+    </p>
+    
 </div>
 
 
