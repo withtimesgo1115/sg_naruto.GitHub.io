@@ -130,7 +130,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 </div>
 
 # Text Analysis
-
+This is text analysis
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here: you can find our data set. <a href="https://www.google.com">Data Set</a>
