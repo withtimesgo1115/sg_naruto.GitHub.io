@@ -14,7 +14,7 @@ Ninja is a well-known ancient profession in Japan. Their work includes protectin
 </div>
 <div style="clear:both;"></div>
 
-# Baisc Network Analysis
+# Network Analysis
 <div class="wrapper" style="margin:10px;text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
 Our datasets are extracted from the Fandom wikipages by using the API provided by this website and some libraries such as JSON, urllib, and BeautifulSoup, etc. The first dataset is the text content of every character webpage shown in the comic. The second data set is the XXX. For the first dataset, we crawled the text length, affiliation and clan in each page as the attributes for the node. The network edges are generated according to the superlinks of corresponding node pages. After constructing the network, it is easy to obtain the number of nodes and edges by calling the built-in methods of NetworkX. The result shows there are <b>1293</b> nodes and <b>11055</b> edges and note that the isolated nodes that there is no connection between that node and others has been removed already.
 </div>
@@ -33,9 +33,24 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         For in-degree distribution, most of the values are distributed between 0 and 50(more exactly, 0 to 20). There are limited nodes with extremely high in-degrees in the network, which means that the tail of this power-law distribution(long-tail distribution) will be pretty long. From the figure of out-degree distribution, the conclusion can be obtained that unlike the case of in-degrees, many nodes own non-zero out-degree values. Besides, the variance of out-degree frequency is considerable smaller than that of in-degree one and there aren't many outliers.
     </p>
     <img src="./img/in&outdegree.png" />
-    <p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
     Clearly, for Naruto degree distribution, it looks like power-law distribution. Most nodes have links between 0 and 50 and a few of them have a considerable number of links. The nodes with high degree value are those who have high in-degrees. These protagonists can be considered as hubs in the network.
     For ER random network, it obeys binominal distribution and can be thought as Poisson Distribution roughly because we have a large number of nodes. Most degrees are distributed between 10 and 25.
     </p>
     <img src="./img/comparewithRandom.png" />
 </div>
+
+## Network Overview
+<div style="display:flex">
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    The overall network of Naruto World is shown in the figure below. As shown in the figure, those nodes whose size is obviously larger than others are critical protagonists in the network. They have higher degrees. Different node is grouped in a different community with different colors. The connections(links) among these nodes are drawn in shallow yellow.
+    </p>
+    <img src="./img/network.jpg" style="display:flex; justify-content:center; align-items:center;"/>
+</div>
+
+# Text Analysis
+
+# Download our dataset to play around & See our explainer notebook for more details 
+Click here: you can find our data set. <a href="https://www.google.com">Data Set</a>
+<br>
+Click here: you can find our explainer notebook. <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
