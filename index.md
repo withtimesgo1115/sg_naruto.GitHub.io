@@ -54,10 +54,10 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 ## Community Analysis
 <div>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    Here, you can find all 9 communities givne by <i>Louvain Method</i> in the communities figure. The x-axis represents the sequence number of each community and the y-axis represents the number of nodes for that community.  
+    Here, you can find all 9 communities givne by <i>Louvain Method</i> in the community distribution figure. The x-axis represents the sequence number of each community and the y-axis represents the number of nodes for that community.  
     </p>
-    <img src="./img/communities.png" style="float:left">
-    <table style="width:30%; height: 300px; margin-left:20px;">
+    <img src="./img/communities.png" style="float:left; margin-right: 30px;">
+    <table style="width:50%; height: 300px;">
         <tr>
             <th></th>
             <th><b>Community</b></th>
@@ -99,6 +99,9 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
             <td>Shabadaba & Haido & Hikaru Tsuki</td>
         </tr>
     </table>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    We named every community using three character names whose degree ranks in top 3 in that community. In the row 2, you can see Naruto, Kakashi and Sasuki are grouped to the same community and other communities also meet our expectation. 
+    </p>
 </div>
 
 ## Network Overview
