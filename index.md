@@ -117,14 +117,17 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 
 <div style="display:flex">
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;">
-    The overall network of Naruto World is shown in the figures below. As shown in the figure, those nodes whose size is obviously larger than others are critical protagonists in the network. They have higher degrees. The connections(links) among these nodes are drawn in shallow yellow. 
-    </p>
-    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;">
-    The first network graph is drawn based on the <b>communities</b> analyzed above. Different node is grouped in a different community with different colors.
+    The first network graph is drawn based on the <b>clan</b> extracted from the wikipages in the beginning. Different node is grouped in a different clan with different colors. There are 42 clans in this comic so that you can see 42 different colors marking the nodes.
     </p>
     <img src="./img/clan.png" style="display:flex; justify-content:center; align-items:center;"/>
 </div>
 
+<div style="display:flex">
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;">
+    The third network graph is drawn based on the <b>affliation</b> extracted from the wikipages in the beginning as well. Different node is grouped in a different community with different colors.
+    </p>
+    <img src="./img/networkAttr.png" style="display:flex; justify-content:center; align-items:center;"/>
+</div>
 
 # Text Analysis
 
