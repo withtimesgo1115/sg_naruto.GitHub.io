@@ -40,6 +40,19 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <img src="./img/comparewithRandom.png" />
 </div>
 
+## Network Centrality
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    Centrality analysis can help us to find the most important node in the network and in our analysis, three different methods for calculating the centrality are used; they are <b>degree centrality</b>，<b>betweenness centrality</b> and <b>eigenvector centrality</b> respectively. The results are shown in the figure below.
+    </p>
+    <img src="./img/centrality.png">
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
+    The leftest figure is obtained by using the degree centrality, the middle one shows the centrality based on the betweenness centrality and the result of egienvector centrality can be found in the rightest figure. From these figures, it is obvious that the top 3 characters in terms of centrality are Naruto Uzumaki, Kakashi Hatake and Sasuke Uchiha according to all 3 methods, which fits our expectations perfectly. However, the fourth and fifth characters found are a bit different. One of the most important villains named Orochimaru and absolute protagonist's son Boruto Uzumaki show up in two results and meanwhile the heroine Sakura Haruno and another important villain Yakushi appear once each. This is reasonable because they are all key characters whose story runs through the whole work.       
+    </p>
+</div>
+
+The left one 
+
 ## Network Overview
 <div style="display:flex">
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
@@ -48,7 +61,10 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <img src="./img/network.jpg" style="display:flex; justify-content:center; align-items:center;"/>
 </div>
 
+
+
 # Text Analysis
+
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here: you can find our data set. <a href="https://www.google.com">Data Set</a>
