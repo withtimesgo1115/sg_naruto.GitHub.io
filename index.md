@@ -130,7 +130,28 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 </div>
 
 # Text Analysis
-This is text analysis
+<p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    In this section, the research based on the text analysis is introduced which contains sentiment analysis, wordcloud processing, novel analysis etc.   
+</p>
+
+## Wordcloud Generation
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    The wordcloud generated through <i>TF-IDF</i> is shown in the figure below. From that, you can see the more important for the word, the bigger the word is so that <b>Naruto</b>, <b>Sasuki</b>, and <b>Boruto</b>, etc. are much bigger than other words because they are all the main characters' names. Meanwhile, it is noticeable that <b>team</b>, <b>village</b>, <b>attack</b>, <b>mission</b> and so on are also high-frequent. This can be explained by the key value of this comic(or anime): team up to execute all kinds of mission to maintain the peace, attack the intruder and protect the village.   
+    </p>
+    <img src="./img/wordcloud.png"/>
+</div>
+
+## Sentiment Analysis
+<p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    The sentiment analysis aims to find the happiest and saddest character in this comic and we used a sentiment dataframe provided to calculate the sentiment values for each character. In the sentiment reference dataframe, all the words have happiness rank and corresponding happiness mean value which can be used to obtain the overall mean sentiment value for each character's wikipage. After the calculation, we can find the sentiment values for every character and then rank them in descending order(the bigger sentiment value means happier the character is).     
+</p>
+<div>
+    <img src="./img/sentimentDis.png"/>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    It is obvious that the sentiment values do not change much and fluctuate within a limited range. Most of the sentiment values of the characters are between 5.4 and 5.5 and it looks like a normal distribution. The result is shown in the figure above.
+    </p>
+</div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here: you can find our data set. <a href="https://www.google.com">Data Set</a>
