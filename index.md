@@ -152,8 +152,157 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     It is obvious that the sentiment values do not change much and fluctuate within a limited range. Most of the sentiment values of the characters are between 5.4 and 5.5 and it looks like a normal distribution. The result is shown in the figure above.
     </p>
 </div>
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    After sorting the sentiment values, it is not hard to find the top 5 happiest characters as well as the saddest characters. Let's have a look in the tables below.
+    </p>
+    <table style="float:left; margin-right:70px;">
+        <tr>
+            <th><b>top 5 happiest</b></th>
+            <th><b>chatracter</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Himawari Uzumaki</td>
+            <td>5.767181</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Asura Ōtsutsuki</td>
+            <td>5.744553</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Kushina Uzumaki</td>
+            <td>5.718786</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hagoromo Ōtsutsuki</td>
+            <td>5.714584</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Hamura Ōtsutsuki</td>
+            <td>5.714297</td>
+        </tr>
+    </table>
+    <table style="margin-left:20px;">
+        <tr>
+            <th><b>top 5 saddest</b></th>
+            <th><b>chatracter</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Hidan</td>
+            <td>5.199131</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Gyūki</td>
+            <td>5.231923</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rōshi</td>
+            <td>5.257266</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Zabuza Momochi</td>
+            <td>5.279233</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Kina Kodon</td>
+            <td>5.282784</td>
+        </tr>
+    </table>
+    <div style="clear:both";></div>
+    <p style="margin-top: 30px;">
+    According to the table we found, the happiest character is <b>Himawari Uzumaki</b> while the saddest character is <b>Hidan</b>. This difference comes from the truth that the wikipage of Himawari Uzumaki contains a number of words with a high sentiment but Hidan's wikipage is opposite. However, is our guess correct? How to verify? This is a small challenge for us so a short script is written which can be used to evaluate the corresponding word counts in terms of its sentiment values for each wikipage text. Finally, we found there are <b>father</b>, <b>brother</b> and <b>mother</b> and so on showing up above 20 times in the wikipage of the happiest character. On the other hand, the saddest character "Hidan"'s page contains terrible words like <b>kill</b> even reaching an astonishing 17 times. You can find the results in the tables below.  
+    </p>
+    <table style="float:left; margin-right:100px;">
+        <tr>
+            <th><b></b></th>
+            <th><b>word</b></th>
+            <th><b>counts</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>father</td>
+            <td>26</td>
+            <td>7.06</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>brother</td>
+            <td>21</td>
+            <td>7.22</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>mother</td>
+            <td>20</td>
+            <td>7.68</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>also</td>
+            <td>19</td>
+            <td>5.42</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>later</td>
+            <td>18</td>
+            <td>4.60</td>
+        </tr>
+    </table>
+    <table style="margin-left:20px;">
+        <tr>
+            <th><b></b></th>
+            <th><b>word</b></th>
+            <th><b>counts</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>page</td>
+            <td>41</td>
+            <td>5.62</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>chapter</td>
+            <td>41</td>
+            <td>5.60</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>opponent</td>
+            <td>20</td>
+            <td>3.90</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>kill</td>
+            <td>17</td>
+            <td>1.56</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>body</td>
+            <td>16</td>
+            <td>5.96</td>
+        </tr>
+    </table>
+</div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
-Click here: you can find our data set. <a href="https://www.google.com">Data Set</a>
+Click here to find our data set: <a href="https://www.google.com">Data Set</a>
 <br>
-Click here: you can find our explainer notebook. <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
+Click here to find our explainer notebook: <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
