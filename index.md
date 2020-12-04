@@ -156,7 +156,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     After sorting the sentiment values, it is not hard to find the top 5 happiest characters as well as the saddest characters. Let's have a look in the tables below.
     </p>
-    <table style="float:left; width: 50%; height:300px;">
+    <table style="float:left; width: 50%; height:400px; margin-right:10px;">
         <tr>
             <th><b>top 5 happiest</b></th>
             <th><b>chatracter</b></th>
@@ -188,7 +188,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
             <td>5.714297</td>
         </tr>
     </table>
-    <table style="width: 50%; hight: 300px;">
+    <table style="width: 50%; hight: 400px; margin-left:10px;">
         <tr>
             <th><b>top 5 saddest</b></th>
             <th><b>chatracter</b></th>
@@ -224,7 +224,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="margin-top: 30px;">
     According to the table we found, the happiest character is <b>Himawari Uzumaki</b> while the saddest character is <b>Hidan</b>. This difference comes from the truth that the wikipage of Himawari Uzumaki contains a number of words with a high sentiment but Hidan's wikipage is opposite. However, is our guess correct? How to verify? This is a small challenge for us so a short script is written which can be used to evaluate the corresponding word counts in terms of its sentiment values for each wikipage text. Finally, we found there are <b>father</b>, <b>brother</b> and <b>mother</b> and so on showing up above 20 times in the wikipage of the happiest character. On the other hand, the saddest character "Hidan"'s page contains terrible words like <b>kill</b> even reaching an astonishing 17 times. You can find the results in the tables below.  
     </p>
-    <table style="float:left; margin-right:50px;">
+    <table style="float:left; width:50%;">
         <tr>
             <th><b></b></th>
             <th><b>word</b></th>
@@ -262,7 +262,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
             <td>4.60</td>
         </tr>
     </table>
-    <table>
+    <table style="width:50%;">
         <tr>
             <th><b></b></th>
             <th><b>word</b></th>
