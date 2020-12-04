@@ -303,6 +303,6 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 </div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
-Click here to find our data set: <a href="https://www.google.com">Data Set</a>
+Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
 <br>
 Click here to find our explainer notebook: <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
