@@ -156,7 +156,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     After sorting the sentiment values, it is not hard to find the top 5 happiest characters as well as the saddest characters. Let's have a look in the tables below.
     </p>
-    <table style="float:left; width: 50%; height:400px; margin-right:10px;">
+    <table style="float:left; width: 40%; height:400px; margin-right:10px;">
         <tr>
             <th><b>top 5 happiest</b></th>
             <th><b>chatracter</b></th>
@@ -188,7 +188,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
             <td>5.714297</td>
         </tr>
     </table>
-    <table style="width: 50%; hight: 400px; margin-left:10px;">
+    <table style="width: 40%; hight: 400px; margin-left:10px;">
         <tr>
             <th><b>top 5 saddest</b></th>
             <th><b>chatracter</b></th>
