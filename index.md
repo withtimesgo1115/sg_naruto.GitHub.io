@@ -220,7 +220,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
             <td>5.282784</td>
         </tr>
     </table>
-    <div style="clear:both";></div>
+    <div style="clear:both;"></div>
     <p style="margin-top: 30px;">
     According to the table we found, the happiest character is <b>Himawari Uzumaki</b> while the saddest character is <b>Hidan</b>. This difference comes from the truth that the wikipage of Himawari Uzumaki contains a number of words with a high sentiment but Hidan's wikipage is opposite. However, is our guess correct? How to verify? This is a small challenge for us so a short script is written which can be used to evaluate the corresponding word counts in terms of its sentiment values for each wikipage text. Finally, we found there are <b>father</b>, <b>brother</b> and <b>mother</b> and so on showing up above 20 times in the wikipage of the happiest character. On the other hand, the saddest character "Hidan"'s page contains terrible words like <b>kill</b> even reaching an astonishing 17 times. You can find the results in the tables below.  
     </p>
