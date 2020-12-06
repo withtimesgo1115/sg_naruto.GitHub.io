@@ -16,7 +16,7 @@ Ninja is a well-known ancient profession in Japan. Their work includes protectin
 
 # Network Analysis
 <div class="wrapper" style="margin:10px;text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-Our datasets are extracted from the Fandom wikipages by using the API provided by this website and some libraries such as JSON, urllib, and BeautifulSoup, etc. The first dataset is the text content of every character webpage shown in the comic. The second data set is the XXX. For the first dataset, we crawled the text length, affiliation and clan in each page as the attributes for the node. The network edges are generated according to the superlinks of corresponding node pages. After constructing the network, it is easy to obtain the number of nodes and edges by calling the built-in methods of NetworkX. The result shows there are <b>1293</b> nodes and <b>11055</b> edges and note that the isolated nodes that there is no connection between that node and others has been removed already.
+Our datasets are extracted from the Fandom wikipages by using the API provided by this website and some libraries such as JSON, urllib, and BeautifulSoup, etc. The first dataset is the text content of every character webpage shown in the comic. The second data set is the light novels of this comic. For the first dataset, we crawled the text length, affiliation and clan in each page as the attributes for the node. The network edges are generated according to the superlinks of corresponding node pages. After constructing the network, it is easy to obtain the number of nodes and edges by calling the built-in methods of NetworkX. The result shows there are <b>1293</b> nodes and <b>11055</b> edges and note that the isolated nodes that there is no connection between that node and others has been removed already.
 </div>
 
 ## Degree Analysis
@@ -120,13 +120,6 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     The first network graph is drawn based on the <b>clan</b> extracted from the wikipages in the beginning. Different node is grouped in a different clan with different colors. There are 42 clans in this comic so that you can see 42 different colors marking the nodes.
     </p>
     <img src="./img/clan.png" style="display:flex; justify-content:center; align-items:center; "/>
-</div>
-
-<div style="display:flex">
-    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
-    The third network graph is drawn based on the <b>affliation</b> extracted from the wikipages in the beginning as well. Different node is grouped in a different community with different colors.
-    </p>
-    <img src="./img/networkAttr.png" style="display:flex; justify-content:center; align-items:center;"/>
 </div>
 
 # Text Analysis
@@ -301,6 +294,8 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
     </table>
 </div>
+
+## Novel Analysis
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
