@@ -562,7 +562,73 @@ In this question, we would like to find out the village with the most tragedy. O
 ### Question 3: Ninjas from which village are the saddest?
 <div>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
-    Let's have a glance at the light novel Sasuke Shinden: The Teacher's Star Pupil. It's fanfiction thus the information it gives may more or less reflect the ideas from fans. To start, we would simply compute the hero Saseke's sentiment change over paragraphs.
+    Let's have a glance at the light novel <i>Sasuke Shinden: The Teacher's Star Pupil</i>. It's fanfiction thus the information it gives may more or less reflect the ideas from fans. To start, we would simply compute the hero Saseke's sentiment change over paragraphs.
+    </p>
+    <img src="./img/sentimentchange.png" />
+    Even with much fluctuation, most paragraphs have sentiment around 5.5, approximately the average sentiment of the novel. As we can see, with the development of the story, the sentiment declines sharply many times but returns to the normal values soon. In line with the graph, we guess that the climax of the story is around paragraph 1900 to 2400, where the sentiment fluctuates the most. Meanwhile, the sharply decreased sentiment is probably related to the occurrence of fighting. 
+</div>
+
+### Question 4: Novel Analysis: Sasuke's Character Pairing
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    Sasuke Uchiha is one of the main characters in Naruto and the hero in the novel <i>Sasuke Shinden: The Teacher's Star Pupil</i>. In this part, we expect more from the light novel: in the author's view, who is Sasuke's character pairing? Character Pairing, also known as CP, is an important part of the ACG culture. Pairing refers to the characters who make up the romantic focus of a fanfiction. But they don't need to be factual lovers. For example, Naruto Uzumaki is sometimes regarded as Sasuke Uchiha's character pairing, even though they are only comrades.
+    Here we assume that rather than with others, when staying with his CP, Sasuke is more pleased. Therefore, this question would become finding character names in each paragraph, and compare the corresponding sentiments.
+    </p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    There are too many characters in Naruto. It's time-consuming to search all the character names in the novel. Therefore, according to our investigation, we would like to list 4 options here: Naruto Uzumaki, Itachi Uchiha, Sakura Haruno and Karin. Naruto Uzumaki is Sasuke's closest comrade and they have common ideals. Itachi Uchiha is Sasuke's brother and the one who supports him the most. Sakura Haruno is Sasuke's wife and they have a daughter. Karin is Sasuke's teammate and she has loved Sasuke at a distance for many years.
+    </p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    First let's make clear who has the most stories with Sasuke in the manga series. This may give us some hints on the anwer for this question. Term-frequency is used here, to analyze character pages. 
+    </p>
+    <ul>
+        <li>Naruto Uzumaki: 0.01652490886998785</li>
+        <li>Itachi Uchiha: 0.030885661689507057</li>
+        <li>Sakura Haruno: 0.02737390955580066</li>
+        <li>Sakura Haruno: 0.02737390955580066</li>
+        <li>Karin: 0.040124524386025595</li>
+    </ul>
+    <p>
+    Term-frequency here shows the degree of character's "love" to Sasuke. Karin is devoted to Sasuke. Naruto seems to be the most impossible candicate for CP.
+    </p>
+    <ul>
+        <li>Naruto: 400</li>
+        <li>Itachi: 188</li>
+        <li>Sakura: 94</li>
+        <li>Karin: 17</li>
+    </ul>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    Things become different. Naruto is the one with the highest probability to be CP, according to the analysis. Surprisingly, Sasuke doesn't seem to care much about Karin. Her affection is doubtless unrequited.
+    </p>
+    <table>
+        <tr>
+            <th><b></b></th>
+            <th><b>Name</b></th>
+            <th><b>Sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Naruto Uzumaki</td>
+            <td>5.546862</td>
+            <td>6.26</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Sakura Haruno</td>
+            <td>5.534066</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Itachi Uchiha</td>
+            <td>5.487603</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Karin</td>
+            <td>5.328333</td>
+        </tr>
+    </table>
+    <p>
+    According to the result, we can conculude that in the author's eyes, <b>Naruto</b> is the CP of Sasuke, even though Sakura has a very close score.
     </p>
 </div>
 
