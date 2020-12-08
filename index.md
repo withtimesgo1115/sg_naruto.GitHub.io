@@ -348,7 +348,7 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
             <td>3</td>
             <td>Naruto Musasabi</td>
             <td>6</td>
-            <td>2476/td>
+            <td>2476</td>
             <td>8</td>
             <td>0.178412</td>
         </tr>
@@ -412,3 +412,7 @@ In this question, we would like to find out the village with the most tragedy. O
     <img src="./img/villages_sentiment.png"></img>
 </div>
 
+# Download our dataset to play around & See our explainer notebook for more details 
+Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
+<br>
+Click here to find our explainer notebook: <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
