@@ -310,6 +310,8 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     From the figure of graduation age distribution, it is not hard to find that most ninjas graduate at 12 years old and the Naruto Uzumaki also belong to this group because he is not a talented ninja although he is very hard-working and ambitious. Only a few real geniuses become professional ninjas before their 9th birthday. These characters should be considered here.
     </p>
+</div>
+<div>
     <table>
         <tr>
             <th><b></b></th>
@@ -410,9 +412,9 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
 The dog-eat-dog world in Naruto is cruel and filled with tragedy. Without power above all, there are wars between countries(more accurately it's between villages because each country built a ninja village to train ninjas as military forces) every year. The five largest villages, Konohagakure, Kirigakure, Kumogakure, Iwagakure, and Sunagakure tend to choose small villages as battlefields, resulting in the expansion of hatred and sadness. One of the most powerful villains in Naruto comes from a small village, he destroyed the hometown of Naruto Uzumaki, for revenge. In short, the world is stuck in a circle of avenge and revenge. Both the villains and heroes aim at bringing peace back to the world. Villains plan to become the power above all to eliminate all the unstable factors. Heroes know that the length of peace kept by force would be the length of the ruler's life. It's not a long-term plan. Thus they determine to unite the world by love.
 In this question, we would like to find out the village with the most tragedy. Our guess would be Amegakure. As a small village between three great countries, it has frequently served as a battleground during the various ninja wars, making most of its population war refugees. The following analysis will evaluate our guess.
 </p>
-<div>
-    <img src="./img/villages_sentiment.png"></img>
-</div>
+
+
+
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
