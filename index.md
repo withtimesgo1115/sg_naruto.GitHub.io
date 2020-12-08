@@ -471,6 +471,87 @@ In this question, we would like to find out the village with the most tragedy. O
     Note that living in the 5 great villages, Konohagakure, Kirigakure, Kumogakure, Sunagakure, and Iwagakure usually doesn't mean a relatively safe. Great countries could also be destroyed easily by wars.
     </p>
 </div>
+<div>
+    <table>
+        <tr>
+            <th><b></b></th>
+            <th><b>word</b></th>
+            <th><b>counts</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>beast</td>
+            <td>218</td>
+            <td>3.36</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ha</td>
+            <td>155</td>
+            <td>6.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>attack</td>
+            <td>145</td>
+            <td>2.42</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>one</td>
+            <td>121</td>
+            <td>5.40</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>war</td>
+            <td>107</td>
+            <td>1.80</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th><b></b></th>
+            <th><b>word</b></th>
+            <th><b>counts</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>team</td>
+            <td>1926</td>
+            <td>6.26</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>ha</td>
+            <td>1735</td>
+            <td>6.00</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>time</td>
+            <td>1272</td>
+            <td>5.74</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>one</td>
+            <td>1268</td>
+            <td>5.40</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>village</td>
+            <td>1257</td>
+            <td>6.28</td>
+        </tr>
+    </table>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    We noticed that beast appeared frequently in Kumogakure's text. Tailed beasts are 9 powerful monsters in Naruto. They were sealed in 9 human bodies(jinchūriki) in the five great countries. When a jinchūriki loses control of his/her tailed beast, the consequence would be disastrous: an out-of-control tailed beast would destroy everything until some powerful ninja stops it and seals it again. Therefore, the tailed beast may be the vital reason for the sadness in Kumogakure. Konohagakure is the most powerful village in the world and it's the hometown of the main characters. That's why Konohagakure is the happiest village among the great-5.
+    </p>
+</div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
