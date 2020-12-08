@@ -311,7 +311,7 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
     From the figure of graduation age distribution, it is not hard to find that most ninjas graduate at 12 years old and the Naruto Uzumaki also belong to this group because he is not a talented ninja although he is very hard-working and ambitious. Only a few real geniuses become professional ninjas before their 9th birthday. These characters should be considered here.
     </p>
     <table>
-    <tr>
+        <tr>
             <th><b></b></th>
             <th><b>Name</b></th>
             <th><b>Graduation age</b></th>
@@ -392,7 +392,7 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
             <td>0.072870</td>
         </tr>
         <tr>
-            <td>8</td>
+            <td>9</td>
             <td>(Kakashi Hatake, Jiraiya, Orochimaru, Naruto M...</td>
             <td>(5, 6, 6, 6, 6, 6, 7, 7, 7, 8)</td>
             <td>13</td>
@@ -411,8 +411,7 @@ The dog-eat-dog world in Naruto is cruel and filled with tragedy. Without power 
 In this question, we would like to find out the village with the most tragedy. Our guess would be Amegakure. As a small village between three great countries, it has frequently served as a battleground during the various ninja wars, making most of its population war refugees. The following analysis will evaluate our guess.
 </p>
 <div>
-<img src="./img/villages_sentiment.png">
-</img>
+    <img src="./img/villages_sentiment.png"></img>
 </div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
