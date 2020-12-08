@@ -244,15 +244,15 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
         <tr>
             <td>3</td>
-            <td>also</td>
-            <td>19</td>
-            <td>5.42</td>
+            <td>home</td>
+            <td>14</td>
+            <td>7.14</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>later</td>
+            <td>13</td>
             <td>18</td>
-            <td>4.60</td>
+            <td>6.24</td>
         </tr>
     </table>
     <table style="width:50%;">
@@ -295,7 +295,61 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     </table>
 </div>
 
-## Novel Analysis(wait for Manxi's work)
+## Original Analysis
+<p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+In this section, we will show the most interesting research topics. The research in this section combines all the theoretical knowledge and analyzing skills we learned in the course to mine hidden information contained in the network and texts and to compare the results we obtained with the conventional cognition. Complex network and natural language processing are both for discovering, explaining and then solving practical problems in life, instead of just doing some analysis alone. 
+</p>
+
+### Question 1: Are geniuses all alone? / Are geniuses changing the world?
+<p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+In Naruto world, every child in Ninja Villages will be admitted to the Ninja Academy to learn basic ninjutsu (the skills to become a ninja) at a very young age. Only graduating successfully from these academies, they were considered professional ninjas. In most cases, gifted children will graduate at an early age and this is also match the situation in our real world. In line with our experience, the centrality of a character reflects the importance in the comic world. Out-degree illustrates how much one cares about other characters. In-degree demonstrates one's degree of being noticed. Therefore, to solve this question, we made an investigation regarding the characters with young graduation age(they are geniuses) and their degree and eigenvector centrality and this should rely on the graduation age attribute collected in the previous steps. 
+</p>
+
+<div style="position: relative;">
+    <img src="./img/graduation_age.png"/>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    From the figure of graduation age distribution, it is not hard to find that most ninjas graduate at 12 years old and the Naruto Uzumaki also belong to this group because he is not a talented ninja although he is very hard-working and ambitious. Only a few real geniuses become professional ninjas before their 9th birthday. These characters should be considered here.
+    </p>
+    <table style="position: absolute; left: 50%;">
+    <tr>
+            <th><b></b></th>
+            <th><b>word</b></th>
+            <th><b>counts</b></th>
+            <th><b>sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>opponent</td>
+            <td>20</td>
+            <td>3.90</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>kill</td>
+            <td>17</td>
+            <td>1.56</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>body</td>
+            <td>16</td>
+            <td>5.96</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>despite</td>
+            <td>13</td>
+            <td>4.48</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>battle</td>
+            <td>13</td>
+            <td>2.98</td>
+        </tr>
+    </table>
+</div>
+
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
