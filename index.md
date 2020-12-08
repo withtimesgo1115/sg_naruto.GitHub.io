@@ -311,45 +311,105 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
     From the figure of graduation age distribution, it is not hard to find that most ninjas graduate at 12 years old and the Naruto Uzumaki also belong to this group because he is not a talented ninja although he is very hard-working and ambitious. Only a few real geniuses become professional ninjas before their 9th birthday. These characters should be considered here.
     </p>
     <table>
-    <tr>
+        <tr>
             <th><b></b></th>
-            <th><b>word</b></th>
-            <th><b>counts</b></th>
-            <th><b>sentiment</b></th>
+            <th><b>Name</b></th>
+            <th><b>Graduation age</b></th>
+            <th><b>In-degree</b></th>
+            <th><b>Out-degree</b></th>
+            <th><b>Eigenvector centrality</b></th>
         </tr>
         <tr>
             <td>0</td>
-            <td>opponent</td>
-            <td>20</td>
-            <td>3.90</td>
+            <td>Kakashi Hatake</td>
+            <td>5</td>
+            <td>247</td>
+            <td>108</td>
+            <td>0.220451</td>
         </tr>
         <tr>
             <td>1</td>
-            <td>kill</td>
-            <td>17</td>
-            <td>1.56</td>
+            <td>Jiraiya</td>
+            <td>6</td>
+            <td>128</td>
+            <td>58</td>
+            <td>0.132034</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>body</td>
-            <td>16</td>
-            <td>5.96</td>
+            <td>Orochimaru</td>
+            <td>6)</td>
+            <td>194</td>
+            <td>65</td>
+            <td>0.197742</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>despite</td>
-            <td>13</td>
-            <td>4.48</td>
+            <td>Naruto Musasabi</td>
+            <td>6</td>
+            <td>2476/td>
+            <td>8</td>
+            <td>0.178412</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>battle</td>
+            <td>Tsunade</td>
+            <td>6</td>
+            <td>143</td>
+            <td>60</td>
+            <td>0.136061</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Yamato</td>
+            <td>6</td>
+            <td>65</td>
+            <td>55</td>
+            <td>0.098044</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Itachi Uchiha</td>
+            <td>7</td>
+            <td>117</td>
+            <td>41</td>
+            <td>0.129140</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Might Guy</td>
+            <td>7</td>
+            <td>103</td>
+            <td>64</td>
+            <td>0.117126</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Sasori</td>
+            <td>7</td>
+            <td>57</td>
+            <td>31</td>
+            <td>0.072870</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Baki</td>
+            <td>8</td>
             <td>13</td>
-            <td>2.98</td>
+            <td>20</td>
+            <td>0.026534</td>
         </tr>
     </table>
 </div>
 
+### Question 2: Are geniuses all alone? / Are geniuses changing the world?
+<p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+The dog-eat-dog world in Naruto is cruel and filled with tragedy. Without power above all, there are wars between countries(more accurately it's between villages because each country built a ninja village to train ninjas as military forces) every year. The five largest villages, Konohagakure, Kirigakure, Kumogakure, Iwagakure, and Sunagakure tend to choose small villages as battlefields, resulting in the expansion of hatred and sadness. One of the most powerful villains in Naruto comes from a small village, he destroyed the hometown of Naruto Uzumaki, for revenge. In short, the world is stuck in a circle of avenge and revenge. Both the villains and heroes aim at bringing peace back to the world. Villains plan to become the power above all to eliminate all the unstable factors. Heroes know that the length of peace kept by force would be the length of the ruler's life. It's not a long-term plan. Thus they determine to unite the world by love.
+In this question, we would like to find out the village with the most tragedy. Our guess would be Amegakure. As a small village between three great countries, it has frequently served as a battleground during the various ninja wars, making most of its population war refugees. The following analysis will evaluate our guess.
+</p>
+<div>
+    <img src="./img/villages_sentiment.png"></img>
+</div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
