@@ -132,7 +132,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     The wordcloud generated through <i>TF-IDF</i> is shown in the figure below. From that, you can see the more important for the word, the bigger the word is so that <b>Naruto</b>, <b>Sasuki</b>, and <b>Boruto</b>, etc. are much bigger than other words because they are all the main characters' names. Meanwhile, it is noticeable that <b>team</b>, <b>village</b>, <b>attack</b>, <b>mission</b> and so on are also high-frequent. This can be explained by the key value of this comic(or anime): team up to execute all kinds of mission to maintain the peace, attack the intruder and protect the village.   
     </p>
-    <img src="./img/wordcloud.png"/>
+    <img src="./img/newwordcloud.png"/>
 </div>
 
 ## Sentiment Analysis
@@ -140,7 +140,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     The sentiment analysis aims to find the happiest and saddest character in this comic and we used a sentiment dataframe provided to calculate the sentiment values for each character. In the sentiment reference dataframe, all the words have happiness rank and corresponding happiness mean value which can be used to obtain the overall mean sentiment value for each character's wikipage. After the calculation, we can find the sentiment values for every character and then rank them in descending order(the bigger sentiment value means happier the character is).     
 </p>
 <div>
-    <img src="./img/sentimentDis.png"/>
+    <img src="./img/new_sentiment.png"/>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     It is obvious that the sentiment values do not change much and fluctuate within a limited range. Most of the sentiment values of the characters are between 5.4 and 5.5 and it looks like a normal distribution. The result is shown in the figure above.
     </p>
@@ -158,27 +158,27 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         <tr>
             <td>0</td>
             <td>Himawari Uzumaki</td>
-            <td>5.767181</td>
+            <td>5.786766/td>
         </tr>
         <tr>
             <td>1</td>
             <td>Asura Ōtsutsuki</td>
-            <td>5.744553</td>
+            <td>5.753659</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Kushina Uzumaki</td>
-            <td>5.718786</td>
+            <td>5.740877</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Hagoromo Ōtsutsuki</td>
-            <td>5.714584</td>
+            <td>Hamura Ōtsutsuki</td>
+            <td>5.733134</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Hamura Ōtsutsuki</td>
-            <td>5.714297</td>
+            <td>Hagoromo Ōtsutsuki</td>
+            <td>5.722735</td>
         </tr>
     </table>
     <table style="width: 50%; hight: 400px;">
@@ -190,32 +190,32 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         <tr>
             <td>0</td>
             <td>Hidan</td>
-            <td>5.199131</td>
+            <td>5.172518</td>
         </tr>
         <tr>
             <td>1</td>
             <td>Gyūki</td>
-            <td>5.231923</td>
+            <td>5.215784</td>
         </tr>
         <tr>
             <td>2</td>
             <td>Rōshi</td>
-            <td>5.257266</td>
+            <td>5.241013</td>
         </tr>
         <tr>
             <td>3</td>
             <td>Zabuza Momochi</td>
-            <td>5.279233</td>
+            <td>5.254157</td>
         </tr>
         <tr>
             <td>4</td>
             <td>Kina Kodon</td>
-            <td>5.282784</td>
+            <td>5.258733</td>
         </tr>
     </table>
     <div style="clear:both;"></div>
     <p style="margin-top: 30px;">
-    According to the table we found, the happiest character is <b>Himawari Uzumaki</b> while the saddest character is <b>Hidan</b>. This difference comes from the truth that the wikipage of Himawari Uzumaki contains a number of words with a high sentiment but Hidan's wikipage is opposite. However, is our guess correct? How to verify? This is a small challenge for us so a short script is written which can be used to evaluate the corresponding word counts in terms of its sentiment values for each wikipage text. Finally, we found there are <b>father</b>, <b>brother</b> and <b>mother</b> and so on showing up above 20 times in the wikipage of the happiest character. On the other hand, the saddest character "Hidan"'s page contains terrible words like <b>kill</b> even reaching an astonishing 17 times. You can find the results in the tables below.  
+    According to the table we found, the happiest character is <b>Himawari Uzumaki</b> while the saddest character is <b>Hidan</b>. This difference comes from the truth that the wikipage of Himawari Uzumaki contains a number of words with a high sentiment but Hidan's wikipage is opposite. However, is our guess correct? How to verify? This is a small challenge for us so a short script is written which can be used to evaluate the corresponding word counts in terms of its sentiment values for each wikipage text. Finally, we found there are <b>father</b>, <b>brother</b> and <b>mother</b> and so on showing up above 20 times in the wikipage of the happiest character. On the other hand, the saddest character "Hidan"'s page contains terrible words like <b>kill</b> even reaching an astonishing 17 times. This can be explained by the story about these two characters. The happiest character is only a 10-year old little girl who borned after the world returning to peace (in the end of the story), we have abundant reason to believe that she is the happiest character in Naruto. However, for the saddest one, he is a villain who has killed many ninjas through the story because he adores death. 'Kill' is a very sad word in our analysis, but for Hidan, it's the source of his happiness. You can find the evidence in the tables below.
     </p>
     <table style="float:left; width:50%;">
         <tr>
@@ -264,33 +264,33 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
         <tr>
             <td>0</td>
-            <td>page</td>
-            <td>41</td>
-            <td>5.62</td>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>chapter</td>
-            <td>41</td>
-            <td>5.60</td>
-        </tr>
-        <tr>
-            <td>2</td>
             <td>opponent</td>
             <td>20</td>
             <td>3.90</td>
         </tr>
         <tr>
-            <td>3</td>
+            <td>1</td>
             <td>kill</td>
             <td>17</td>
             <td>1.56</td>
         </tr>
         <tr>
-            <td>4</td>
+            <td>2</td>
             <td>body</td>
             <td>16</td>
             <td>5.96</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>despite</td>
+            <td>13</td>
+            <td>4.48</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>battle</td>
+            <td>13</td>
+            <td>2.98</td>
         </tr>
     </table>
 </div>
