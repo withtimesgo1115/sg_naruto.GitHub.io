@@ -54,7 +54,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 ## Community Analysis
 <div>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    Here, you can find all 9 communities givne by <i>Louvain Method</i> in the community distribution figure. The x-axis represents the sequence number of each community and the y-axis represents the number of nodes for that community.  
+    Here, you can find all 13 communities givne by <i>Louvain Method</i> in the community distribution figure. The x-axis represents the sequence number of each community and the y-axis represents the number of nodes for that community.  
     </p>
     <img src="./img/new_comm.png" style="float:left; margin-right: 30px;">
     <table style="width:50%; height: 300px;">
@@ -64,43 +64,47 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
         <tr>
             <td>0</td>
-            <td>Kabuto Yakushi & Might Guy & Kurama</td>
+            <td>Boruto Uzumaki & Ino Yamanaka & Shino Aburame</td>
         </tr>
         <tr>
             <td>1</td>
-            <td>Tsunade & Jiraiya & Nagato</td>
+            <td>Naruto Musasabi & Sakura Haruno & Neji Hyūga</td>
         </tr>
         <tr>
             <td>2</td>
-            <td>Naruto Uzumaki & Kakashi Hatake & Sasuke Uchiha</td>
+            <td>Kabuto Yakushi & Gaara & Killer B</td>
         </tr>
         <tr>
             <td>3</td>
-            <td>Sakura Haruno & Gaara & Shikamaru Nara</td>
+            <td>Sasuke Uchiha & Orochimaru & Itachi Uchiha</td>
         </tr>
         <tr>
             <td>4</td>
-            <td>Sai & Kankurō & Sasori</td>
+            <td>Shikamaru Nara & Hinata Hyūga & Chōji Akimichi</td>
         </tr>
         <tr>
             <td>5</td>
-            <td>Boruto Uzumaki & Mitsuki & Sarada Uchiha</td>
+            <td>Kakashi Hatake & Tsunade & Anbu Commander</td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Orochimaru & Kimimaro & Guren</td>
+            <td>Might Guy & Sai & Kankurō</td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Itachi Uchiha & Danzō Shimura & Minato Namikaze</td>
+            <td>Naruto Uzumaki & Iruka Umino & Torune Aburame</td>
         </tr>
         <tr>
             <td>8</td>
-            <td>Shabadaba & Haido & Hikaru Tsuki</td>
+            <td>Jiraiya & Nagato & Hanzō</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>Yamato & Utakata & Chiriku</td>
         </tr>
     </table>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    Besides, we named every community using three character names whose degree ranks in top 3 in that community. In the row 2, you can see Naruto, Kakashi and Sasuki are grouped to the same community and other communities also meet our expectation. You can find the result in the table above.
+    Besides, we named every community using three character names whose degree ranks in top 3 in that community. In the group 7, you can see Naruto, Iruka Umino and Torune Aburame are grouped to the same community and other communities also meet our expectation. You can find the result in the table above.
     </p>
 </div>
 
