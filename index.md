@@ -406,7 +406,7 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
     </p>
 </div>
 
-### Question 2: Are geniuses all alone? / Are geniuses changing the world?
+### Question 2: Ninjas from which village are the saddest?
 <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
 The dog-eat-dog world in Naruto is cruel and filled with tragedy. Without power above all, there are wars between countries(more accurately it's between villages because each country built a ninja village to train ninjas as military forces) every year. The five largest villages, Konohagakure, Kirigakure, Kumogakure, Iwagakure, and Sunagakure tend to choose small villages as battlefields, resulting in the expansion of hatred and sadness. One of the most powerful villains in Naruto comes from a small village, he destroyed the hometown of Naruto Uzumaki, for revenge. In short, the world is stuck in a circle of avenge and revenge. Both the villains and heroes aim at bringing peace back to the world. Villains plan to become the power above all to eliminate all the unstable factors. Heroes know that the length of peace kept by force would be the length of the ruler's life. It's not a long-term plan. Thus they determine to unite the world by love.
 In this question, we would like to find out the village with the most tragedy. Our guess would be Amegakure. As a small village between three great countries, it has frequently served as a battleground during the various ninja wars, making most of its population war refugees. The following analysis will evaluate our guess.
@@ -472,7 +472,7 @@ In this question, we would like to find out the village with the most tragedy. O
     </p>
 </div>
 <div>
-    <table>
+    <table style="float:left; width:50%;">
         <tr>
             <th><b></b></th>
             <th><b>word</b></th>
@@ -510,7 +510,7 @@ In this question, we would like to find out the village with the most tragedy. O
             <td>1.80</td>
         </tr>
     </table>
-    <table>
+    <table style="width: 50%;">
         <tr>
             <th><b></b></th>
             <th><b>word</b></th>
@@ -550,6 +550,19 @@ In this question, we would like to find out the village with the most tragedy. O
     </table>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     We noticed that beast appeared frequently in Kumogakure's text. Tailed beasts are 9 powerful monsters in Naruto. They were sealed in 9 human bodies(jinchūriki) in the five great countries. When a jinchūriki loses control of his/her tailed beast, the consequence would be disastrous: an out-of-control tailed beast would destroy everything until some powerful ninja stops it and seals it again. Therefore, the tailed beast may be the vital reason for the sadness in Kumogakure. Konohagakure is the most powerful village in the world and it's the hometown of the main characters. That's why Konohagakure is the happiest village among the great-5.
+    </p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    We found that ninjas from Yugakure are saddest. Actually, the saddest character, Hidan, is from Yugakure. Ironically, Yugakure is a small village which has strong inclinations towards pacifism. Ideally, it ought to be the happiest village in the world. However, Yugakure's transformation from a military force was not supported by all, Hidan being a notable objector. He slaughtered many villagers and left the village. Hidan has a very negative influence on the sentiment of Yugakure.
+    </p>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    <b>WAR IS CRUEL</b>. In the world of Naruto, no matter great or small villages, they all face the pressure of war every day. It's so ironic that villagers in Yugakure, who love peace the most, are through the worst. We are supposed to cherish the peaceful time which got through difficult struggles: war has never been far away from us.
+    </p>
+</div>
+
+### Question 3: Ninjas from which village are the saddest?
+<div>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    Let's have a glance at the light novel Sasuke Shinden: The Teacher's Star Pupil. It's fanfiction thus the information it gives may more or less reflect the ideas from fans. To start, we would simply compute the hero Saseke's sentiment change over paragraphs.
     </p>
 </div>
 
