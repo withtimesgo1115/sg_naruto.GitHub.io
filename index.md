@@ -304,12 +304,13 @@ In this section, we will show the most interesting research topics. The research
 <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
 In Naruto world, every child in Ninja Villages will be admitted to the Ninja Academy to learn basic ninjutsu (the skills to become a ninja) at a very young age. Only graduating successfully from these academies, they were considered professional ninjas. In most cases, gifted children will graduate at an early age and this is also match the situation in our real world. In line with our experience, the centrality of a character reflects the importance in the comic world. Out-degree illustrates how much one cares about other characters. In-degree demonstrates one's degree of being noticed. Therefore, to solve this question, we made an investigation regarding the characters with young graduation age(they are geniuses) and their degree and eigenvector centrality and this should rely on the graduation age attribute collected in the previous steps. 
 </p>
-
 <div>
     <img src="./img/graduation_age.png"/>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     From the figure of graduation age distribution, it is not hard to find that most ninjas graduate at 12 years old and the Naruto Uzumaki also belong to this group because he is not a talented ninja although he is very hard-working and ambitious. Only a few real geniuses become professional ninjas before their 9th birthday. These characters should be considered here.
     </p>
+</div>
+<div>
     <table>
         <tr>
             <th><b></b></th>
@@ -338,7 +339,7 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
         <tr>
             <td>2</td>
             <td>Orochimaru</td>
-            <td>6)</td>
+            <td>6</td>
             <td>194</td>
             <td>65</td>
             <td>0.197742</td>
