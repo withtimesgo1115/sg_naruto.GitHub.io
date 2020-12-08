@@ -25,19 +25,19 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         The degree of a node in the network is the number of adjacent nodes that the i-th node has, which is the simplest but most important feature. The greater the degree, the more important the node is to some extent. For directed networks, degrees are divided into two categories: out-degree and in-degree. Out-degree refers to the number of edges from current node to other node. In-degree refers to the number of edges from other node to current node. 
         Once the network generated successfully, the degree analysis will not be complex since the third-party library <i>NextwrokX</i> provides us with a lot of methods. From the figure below, you can see the top 5 nodes in terms of the number of out-degree and in-degree. The result is basically consistent with our expected result. They are indeed the most important characters in this comic. However, the appearance of "Naruto Musasabi" is out of our expectation that this character occupies the third place in the in-degree rank list. We found that this character is a fictional character from a novel written by a real character Jiraiya and this character is protagonist Naruto Uzumaki's namesake, which makes it own high in-degree. At the same time, the in-degree value greater than the out-degree value can also be explained, because most small characters will cite several important characters, but they are rarely cited by other characters, which leads to a very large in-degree of important characters. 
     </p>
-    <img src="./img/top5deg.png" style="margin:10px;"/>
+    <img src="./img/new_top5.png" style="margin:10px;"/>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
         Here for both distribution, the bins are 100. We used 'Frequency' as y-label here, according to the given example in lecture 4.
     </p>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
         For in-degree distribution, most of the values are distributed between 0 and 50(more exactly, 0 to 20). There are limited nodes with extremely high in-degrees in the network, which means that the tail of this power-law distribution(long-tail distribution) will be pretty long. From the figure of out-degree distribution, the conclusion can be obtained that unlike the case of in-degrees, many nodes own non-zero out-degree values. Besides, the variance of out-degree frequency is considerable smaller than that of in-degree one and there aren't many outliers.
     </p>
-    <img src="./img/in&outdegree.png" />
+    <img src="./img/new_degrees.png" />
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
     Clearly, for Naruto degree distribution, it looks like power-law distribution. Most nodes have links between 0 and 50 and a few of them have a considerable number of links. The nodes with high degree value are those who have high in-degrees. These protagonists can be considered as hubs in the network.
     For ER random network, it obeys binominal distribution and can be thought as Poisson Distribution roughly because we have a large number of nodes. Most degrees are distributed between 10 and 25.
     </p>
-    <img src="./img/comparewithRandom.png" />
+    <img src="./img/new_compare.png" />
 </div>
 
 ## Centrality Analysis
@@ -45,9 +45,9 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
     Centrality analysis can help us to find the most important node in the network and in our analysis, three different methods for calculating the centrality are used; they are <b>degree centrality</b>，<b>betweenness centrality</b> and <b>eigenvector centrality</b> respectively. The results are shown in the figure below.
     </p>
-    <img src="./img/centrality.png">
+    <img src="./img/new_centrality.png">
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    The leftest figure is obtained by using the degree centrality, the middle one shows the centrality based on the betweenness centrality and the result of egienvector centrality can be found in the rightest figure. From these figures, it is obvious that the top 3 characters in terms of centrality are Naruto Uzumaki, Kakashi Hatake and Sasuke Uchiha according to all 3 methods, which fits our expectations perfectly. However, the fourth and fifth characters found are a bit different. One of the most important villains named Orochimaru and absolute protagonist's son Boruto Uzumaki show up in two results and meanwhile the heroine Sakura Haruno and another important villain Yakushi appear once each. This difference comes from the solving logic of different algorithm and more details are given in our explainer notebook. Overall, the results are reasonable because they are all key characters whose story runs through the whole work.       
+    The leftest figure is obtained by using the degree centrality, the middle one shows the centrality based on the betweenness centrality and the result of egienvector centrality can be found in the rightest figure. From these figures, it is obvious that the top 3 characters in terms of centrality are Naruto Uzumaki, Kakashi Hatake and Sasuke Uchiha according to all 3 methods, which fits our expectations perfectly. However, the fourth and fifth characters found are a bit different. the heroine Sakura Haruno and Naruto's sakename Naruto Musasabi appear twice each and meanwhile one of the most important villains named Orochimaru and absolute protagonist's son Boruto Uzumaki show up once. This difference comes from the solving logic of different algorithm and more details are given in our explainer notebook. Overall, the results are reasonable because they are all key characters whose story runs through the whole work.       
     </p>
 </div>
 
