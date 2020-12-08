@@ -104,7 +104,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         </tr>
     </table>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
-    Besides, we named every community using three character names whose degree ranks in top 3 in that community. In the group 7, you can see Naruto, Iruka Umino and Torune Aburame are grouped to the same community and other communities also meet our expectation. You can find the result in the table above.
+    Besides, we named every community using three character names whose degree ranks in top 3 in that community. Note that the three very small communities are neglected in the following analysis. In the group 7, you can see Naruto, Iruka Umino and Torune Aburame are grouped to the same community and other communities also meet our expectation. You can find the result in the table above.
     </p>
 </div>
 
