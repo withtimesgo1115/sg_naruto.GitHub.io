@@ -112,14 +112,21 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     The first network graph is drawn based on the <b>communities</b> analyzed above. Different node is grouped in a different community with different colors.
     </p>
-    <img src="./img/network.jpg" style="display:flex; justify-content:center; align-items:center;"/>
+    <img src="./img/network_comm.png." style="display:flex; justify-content:center; align-items:center;"/>
 </div>
 
 <div style="display:flex">
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     The first network graph is drawn based on the <b>clan</b> extracted from the wikipages in the beginning. Different node is grouped in a different clan with different colors. There are 42 clans in this comic so that you can see 42 different colors marking the nodes.
     </p>
-    <img src="./img/clan.png" style="display:flex; justify-content:center; align-items:center; "/>
+    <img src="./img/network_vill.png" style="display:flex; justify-content:center; align-items:center; "/>
+</div>
+
+<div style="display:flex">
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    The first network graph is drawn based on the <b>clan</b> extracted from the wikipages in the beginning. Different node is grouped in a different clan with different colors. There are 42 clans in this comic so that you can see 42 different colors marking the nodes.
+    </p>
+    <img src="./img/network_grad.png" style="display:flex; justify-content:center; align-items:center; "/>
 </div>
 
 # Text Analysis
