@@ -56,7 +56,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word;overflow:hidden;">
     Here, you can find all 9 communities givne by <i>Louvain Method</i> in the community distribution figure. The x-axis represents the sequence number of each community and the y-axis represents the number of nodes for that community.  
     </p>
-    <img src="./img/communities.png" style="float:left; margin-right: 30px;">
+    <img src="./img/new_comm.png" style="float:left; margin-right: 30px;">
     <table style="width:50%; height: 300px;">
         <tr>
             <th></th>
@@ -136,12 +136,14 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
 
 ## Wordcloud Generation
 <div>
+    <p>
     The wordcloud generated through <i>TF-IDF</i> is shown in the figure below. From that, you can see the more important for the word, the bigger the word is so that <b>Naruto</b>, <b>Sasuki</b>, and <b>Boruto</b>, etc. are much bigger than other words because they are all the main characters' names. Meanwhile, it is noticeable that <b>team</b>, <b>village</b>, <b>attack</b>, <b>time</b> and so on are also high-frequent. This can be explained by the key value of this comic(or anime): team up to execute all kinds of mission to maintain the peace, attack the intruder and protect the village.   
     </p>
     <img src="./img/new_wordcloud.png"/>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     From the figure below, obviously, the result we finally obtained makes sense as far as our knowledge is concerned. The word <b>Naruto</b> shows up in every wordcloud as it is the name of the Anime and also the name of the protagonist. In addition, the name of the characters who have a high degrees in each community shows a great impotance in each wordcloud, such as <b>Boruto</b> in the first community and <b>Sakura</b> in the second community. What's more, the Three protagonists Naruto, Sasuke and Kakashi not only appears in their own community, but aslo shows up in other communitys, like Might Guy & Sai & Kankurō and Sakura Haruno & Naruto Musasabi & Neji Hyūga.
     </p>
+    <img src="img/word_cloud_comm.png" />
 </div>
 
 ## Sentiment Analysis
