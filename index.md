@@ -401,6 +401,9 @@ In Naruto world, every child in Ninja Villages will be admitted to the Ninja Aca
             <td>0.026534</td>
         </tr>
     </table>
+    <p>
+    From the table above, we can see most geniuses are important characters in the comic. Kakashi(Naruto's supervisor), Jiraiya(Naruto's master) and Itachi Uchiha(Sasuke Uchiha's brother) etc. help to promote the development of the storyline and their centrality values, degree values are all high compared with normal characters which means they change the world to some extent. As for social relationship of these geniuses, Kakashi Hatake has a number of friends while Naruto Musasabi seems to not care about others since his out-degree is only 8. Besides, Baki is a real genius, but with little attention. Overall, in the usual case, being a genius doesn't bring loneliness. Genius is not always alone.
+    </p>
 </div>
 
 ### Question 2: Are geniuses all alone? / Are geniuses changing the world?
@@ -410,6 +413,63 @@ In this question, we would like to find out the village with the most tragedy. O
 </p>
 <div>
     <img src="./img/villages_sentiment.png"></img>
+</div>
+<div>
+    <table>
+        <tr>
+            <th><b></b></th>
+            <th><b>Village</b></th>
+            <th><b>Sentiment</b></th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Yugakure</td>
+            <td>5.191124</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ishigakure</td>
+            <td>5.278589</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Shangri-la</td>
+            <td>5.306823</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Howling Wolf Village</td>
+            <td>5.324129</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Kumogakure</td>
+            <td>5.367670</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Kirigakakure</td>
+            <td>5.371250</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>Iwagakure</td>
+            <td>5.421362</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>Sunagakure</td>
+            <td>5.449992</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>Konohagakure</td>
+            <td>5.488923</td>
+        </tr>
+    </table>
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
+    Note that living in the 5 great villages, Konohagakure, Kirigakure, Kumogakure, Sunagakure, and Iwagakure usually doesn't mean a relatively safe. Great countries could also be destroyed easily by wars.
+    </p>
 </div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
