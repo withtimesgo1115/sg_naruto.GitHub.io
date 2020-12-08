@@ -295,7 +295,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     </table>
 </div>
 
-
+# Original Analysis
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
