@@ -158,7 +158,7 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
         <tr>
             <td>0</td>
             <td>Himawari Uzumaki</td>
-            <td>5.786766/td>
+            <td>5.786766</td>
         </tr>
         <tr>
             <td>1</td>
