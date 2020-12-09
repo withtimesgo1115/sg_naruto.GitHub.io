@@ -595,7 +595,7 @@ In this question, we would like to find out the village with the most tragedy. O
     There are too many characters in Naruto. It's time-consuming to search all the character names in the novel. Therefore, according to our investigation, we would like to list 4 options here: Naruto Uzumaki, Itachi Uchiha, Sakura Haruno and Karin. Naruto Uzumaki is Sasuke's closest comrade and they have common ideals. Itachi Uchiha is Sasuke's brother and the one who supports him the most. Sakura Haruno is Sasuke's wife and they have a daughter. Karin is Sasuke's teammate and she has loved Sasuke at a distance for many years.
     </p>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
-    First let's make clear who has the most stories with Sasuke in the manga series. This may give us some hints on the anwer for this question. Term-frequency is used here, to analyze character pages. Considering the length of different page content, term frequency with adjustment would be implemented. We define In-TF here to be the frequency of the word 'sasuke' on each candidates' page. In-TF reflects the candidate's affection for Sasuke. Original term frequency would be implemented here. It's not necessary to apply term frequency with adjustment because the denominator would be the same.
+    First let's make clear who has the most stories with Sasuke in the manga series. This may give us some hints on the anwer for this question. Term-frequency is used here, to analyze character pages. Considering the length of different page content, term frequency with adjustment would be implemented. We define In-TF here to be the frequency of the word 'sasuke' on each candidates' page. In-TF reflects the candidate's affection for Sasuke. 
     </p>
     <ul>
         <li>Naruto Uzumaki: 0.01652490886998785</li>
@@ -608,7 +608,7 @@ In this question, we would like to find out the village with the most tragedy. O
     Term-frequency here shows the degree of character's "love" to Sasuke. Karin is devoted to Sasuke. Naruto seems to be the most impossible candicate for CP. 
     </p>
     <p>
-    We define Out-TF here to be the frequency of a candidate's name on Sasuke' page. Out-TF reflects Sasuke's affection for the candidate in a sense.
+    We define Out-TF here to be the frequency of a candidate's name on Sasuke' page. Out-TF reflects Sasuke's affection for the candidate in a sense. Original term frequency would be implemented here. It's not necessary to apply term frequency with adjustment because the denominator would be the same. 
     </p>
     <ul>
         <li>Naruto: 400</li>
