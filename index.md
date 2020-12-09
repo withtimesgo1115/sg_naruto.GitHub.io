@@ -427,7 +427,7 @@ The dog-eat-dog world in Naruto is cruel and filled with tragedy. Without power 
 In this question, we would like to find out the village with the most tragedy. Our guess would be Amegakure. As a small village between three great countries, it has frequently served as a battleground during the various ninja wars, making most of its population war refugees. The following analysis will evaluate our guess.
 </p>
 <div>
-    <img src="./img/villages_sentiment.png"></img>
+    <img src="./img/villages_sentiment.png" />
 </div>
 <div>
     <table>
