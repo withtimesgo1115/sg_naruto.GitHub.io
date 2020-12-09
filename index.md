@@ -143,11 +143,11 @@ Our datasets are extracted from the Fandom wikipages by using the API provided b
     <p>
     The wordcloud generated through <i>TF-IDF</i> is shown in the figure below. From that, you can see the more important for the word, the bigger the word is so that <b>Naruto</b>, <b>Sasuki</b>, and <b>Boruto</b>, etc. are much bigger than other words because they are all the main characters' names. Meanwhile, it is noticeable that <b>team</b>, <b>village</b>, <b>attack</b>, <b>time</b> and so on are also high-frequent. This can be explained by the key value of this comic(or anime): team up to execute all kinds of mission to maintain the peace, attack the intruder and protect the village.   
     </p>
-    <img src="./img/new_wordcloud.png"/>
+    <img src="./img/new_wc2.png"/>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     From the figure below, obviously, the result we finally obtained makes sense as far as our knowledge is concerned. The word <b>Naruto</b> shows up in every wordcloud as it is the name of the Anime and also the name of the protagonist. In addition, the name of the characters who have a high degrees in each community shows a great impotance in each wordcloud, such as <b>Boruto</b> in the first community and <b>Sakura</b> in the second community. What's more, the Three protagonists Naruto, Sasuke and Kakashi not only appears in their own community, but aslo shows up in other communitys, like Might Guy & Sai & Kankurō and Sakura Haruno & Naruto Musasabi & Neji Hyūga.
     </p>
-    <img src="img/word_cloud_comm.png" />
+    <img src="img/new_cds_comm.png" />
 </div>
 
 ## Sentiment Analysis
@@ -580,7 +580,9 @@ In this question, we would like to find out the village with the most tragedy. O
     Let's have a glance at the light novel <i>Sasuke Shinden: The Teacher's Star Pupil</i>. It's fanfiction thus the information it gives may more or less reflect the ideas from fans. To start, we would simply compute the hero Saseke's sentiment change over paragraphs.
     </p>
     <img src="./img/sentimentchange.png" />
+    <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     Even with much fluctuation, most paragraphs have sentiment around 5.5, approximately the average sentiment of the novel. As we can see, with the development of the story, the sentiment declines sharply many times but returns to the normal values soon. In line with the graph, we guess that the climax of the story is around paragraph 1900 to 2400, where the sentiment fluctuates the most. Meanwhile, the sharply decreased sentiment is probably related to the occurrence of fighting. 
+    </p>
 </div>
 
 ### Question 4: Novel Analysis: Sasuke's Character Pairing
@@ -593,7 +595,7 @@ In this question, we would like to find out the village with the most tragedy. O
     There are too many characters in Naruto. It's time-consuming to search all the character names in the novel. Therefore, according to our investigation, we would like to list 4 options here: Naruto Uzumaki, Itachi Uchiha, Sakura Haruno and Karin. Naruto Uzumaki is Sasuke's closest comrade and they have common ideals. Itachi Uchiha is Sasuke's brother and the one who supports him the most. Sakura Haruno is Sasuke's wife and they have a daughter. Karin is Sasuke's teammate and she has loved Sasuke at a distance for many years.
     </p>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
-    First let's make clear who has the most stories with Sasuke in the manga series. This may give us some hints on the anwer for this question. Term-frequency is used here, to analyze character pages. 
+    First let's make clear who has the most stories with Sasuke in the manga series. This may give us some hints on the anwer for this question. Term-frequency is used here, to analyze character pages. Considering the length of different page content, term frequency with adjustment would be implemented. We define In-TF here to be the frequency of the word 'sasuke' on each candidates' page. In-TF reflects the candidate's affection for Sasuke. Original term frequency would be implemented here. It's not necessary to apply term frequency with adjustment because the denominator would be the same. We define Out-TF here to be the frequency of a candidate's name on Sasuke' page. Out-TF reflects Sasuke's affection for the candidate in a sense.
     </p>
     <ul>
         <li>Naruto Uzumaki: 0.01652490886998785</li>
@@ -642,11 +644,11 @@ In this question, we would like to find out the village with the most tragedy. O
         </tr>
     </table>
     <p>
-    According to the result, we can conculude that in the author's eyes, <b>Naruto</b> is the CP of Sasuke, even though Sakura has a very close score.
+    Different from our guess, in the author's eyes, Naruto Uzumaki and Sakura Haruno have a higher probability to be Sasuke's CP. They have close scores. Karin gets the lowest score. She scored significantly lower than everyone else. Sad story T_T.
     </p>
 </div>
 
 # Download our dataset to play around & See our explainer notebook for more details 
 Click here to find our data set: <a href="https://github.com/withtimesgo1115/sg_naruto.GitHub.io">Data Set</a>
 <br>
-Click here to find our explainer notebook: <a href="https://colab.research.google.com/drive/1qCEBo81UXYC43Q30sA5t5BdqYRldFBes#scrollTo=Xw7YTKMoB9uE">Explainer Notebook</a>
+Click here to find our explainer notebook: <a href="https://colab.research.google.com/drive/15bXjM-yLG0FsWUgX5x-cNQAMAyQtkMe7">Explainer Notebook</a>
