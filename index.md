@@ -574,7 +574,7 @@ In this question, we would like to find out the village with the most tragedy. O
     </p>
 </div>
 
-### Question 3: Ninjas from which village are the saddest?
+### Question 3: Novel Analysis: Sasuke's sentiment change over paragraphs?
 <div>
     <p style="text-align:justify;text-justify:inter-ideograph; word-wrap:break-word; align-items:center;">
     Let's have a glance at the light novel <i>Sasuke Shinden: The Teacher's Star Pupil</i>. It's fanfiction thus the information it gives may more or less reflect the ideas from fans. To start, we would simply compute the hero Saseke's sentiment change over paragraphs.
